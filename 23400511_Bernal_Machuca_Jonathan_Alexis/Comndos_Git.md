@@ -1,0 +1,69 @@
+Actividad 1 U1 Fecha de Entrega 27/08/2026 12:00:00 : 
+
+-Investigar 20 comandos de Github
+
+-Incluir :
+
+          - Descripción
+          - Ejemplo de uso
+
+- git init
+    - Descripcion: Inicializa un nuevo repositorio
+    - Ejmplo de caso de uso:  git ini
+- git clone
+    - Descripcion: Clona un repositorio remoto
+    - Ejmplo de caso de uso: git clone <url>
+- git status
+    - Descripcion: Muestra el estado de los archivos
+    - Ejmplo de caso de uso: git status
+- git add
+    - Descripcion: Agrega archivos al area de preparacion
+    - Ejmplo de caso de uso: git add Perfil.md
+- git commit
+    - Descripcion: Guarda cambios en el historial
+    - Ejmplo de caso de uso: git commit -m "Nuevos cambios"
+- git push
+    - Descripcion: Sube cambios al repositorio remoto
+    - Ejmplo de caso de uso: git push origin main
+- git pull
+    - Descripcion: Descarga cambios del remoto
+    - Ejmplo de caso de uso: git pull origin main 
+- git branch
+    - Descripcion: Lista o crea ramas
+    - Ejmplo de caso de uso: git branch nueva-rama
+- git checkout
+    - Descripcion: Cambia de rama
+    - Ejmplo de caso de uso: git checkout main
+- git merge
+    - Descripcion: Fusiona ramas
+    - Ejmplo de caso de uso: git merge nueva-rama
+- git log
+    - Descripcion: Muestra el historial de commits
+    - Ejmplo de caso de uso: git log --oneline
+- git diff
+    - Descripcion: Muestra diferencias entre versiones
+    - Ejmplo de caso de uso: git diff
+- git reset
+    - Descripcion: Revierte cambios en el area de preparacion
+    - Ejmplo de caso de uso: git reset Perfil.md
+- git rm
+    - Descripcion: Elimina archivos del repositorio
+    - Ejmplo de caso de uso: git rm archivo.txt
+- git remote
+    - Descripcion: Administra repositorios remotos
+    - Ejmplo de caso de uso: git remote add origin <url>
+- git fetch
+    - Descripcion: Descarga cambios fusionarios
+    - Ejmplo de caso de uso: git fetch origin
+- git stash
+    - Descripcion: Guarda temporalmente cambios sin commit
+    - Ejmplo de caso de uso: git stash
+- git rebase
+    - Descripcion: Replica commits sobre otra rama
+    - Ejmplo de caso de uso: git rebase main
+- git tag
+    - Descripcion: Crea etiquetas para versiones 
+    - Ejmplo de caso de uso: git tag v1.0
+- git config
+    - Descripcion: Configura opciones de Git
+    - Ejmplo de caso de uso: git config --global user.name "Jonathan"
