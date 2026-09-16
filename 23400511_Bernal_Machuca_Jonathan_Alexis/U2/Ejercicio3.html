@@ -5,18 +5,90 @@
             <titule>Viajes</titule>
         </head>
         <!-- Titulo -->
-
+         <h1>Fly High</h1>
+         <p>Bienvenido a nuestra agencia de viajes, donde te ayudamos a planificar tus vacaciones soñadas. Explora destinos exóticos, encuentra ofertas exclusivas y reserva tu próximo viaje con facilidad.</p>
         <hr>
         <!-- Menu -->
-
+         <h1>Menu</h1>
+        <table border-right="1">
+            <tr>
+                <td><a href="#destinos">Destinos</a></td>
+                <td><a href="#promociones">Promociones</a></td>
+                <td><a href="#reservacion">Reservación</a></td>
+                <td><a href="#contacto">Contacto</a></td>
+            </tr>
+        </table>
         <hr>
         <!-- Presentacion -->
-         
-        <hr>
+         <h1>Bienvenido</h1>
+
+         <p>En nuestra agencia de viajes, nos apasiona ayudarte a descubrir el mundo. Ya sea que busques aventuras emocionantes, relajación en playas paradisíacas o exploración cultural, tenemos opciones para todos los gustos. Nuestro equipo de expertos está listo para asistirte en cada paso del camino, asegurando que tu experiencia de viaje sea inolvidable.</p>
+        <img src="https://scontent.ftpq1-1.fna.fbcdn.net/v/t39.30808-6/612150137_122216336252322848_8025289248657867059_n.jpg?stp=dst-jpg_tt6&cstp=mx846x847&ctp=s846x847&_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG4qV9Y83rv7aLqRahidBk4rmtYFTvGNv-ua1gVO8Y2__9AVmcDyM1Z0gD62jGZZOYU3HCPkAiJXyvfHPdkH_6H&_nc_ohc=nsnYAdyoHWQQ7kNvwGvtp_8&_nc_oc=AdqIBFUQZw5B3i5MJHycNEgfEvzcjL533BuD0m0Q2j3LZNgVIzZa5r-YcbDJqkliy38OkQlBm9nvgD0tDdPnkiqd&_nc_zt=23&_nc_ht=scontent.ftpq1-1.fna&_nc_gid=OWeQCszKiLz5hB-zsLUcwQ&_nc_ss=7b2a8&oh=00_AQJLFl4pfn9RT11JHkNxHjnq9mTLO2tw_VIKko0Ug-KzLQ&oe=6AAFF6DD">
+         <hr>
         <!-- Destinos Populares -->
+         <h1 id="destinos">Destinos Populares</h1>
+         <br>
+         <br>
+         <h2>Playas</h2>
+         <ul>
+            <li>San Blas</li>
+            <li>Guayabitos</li>
+            <li>Aticama</li>
+            <li>Platanitos</li>
+         </ul>
+         <br>
+         <h2>Pueblos Mágicos</h2>
+         <ol>
+            <li>San Blas</li>
+            <li>Sayulita</li>
+            <li>Compostela</li>
+            <li>Lo de Marcos</li>
+         </ol>
+         <hr>
         <!-- Promociones -->
+         <h1 id="promociones">Promociones</h1>
+         <p>Descubre nuestras ofertas exclusivas y promociones especiales para que tu viaje sea aún
+         <hr>
+         <!--Paquetes disponibles-->
+         <!-- Por que viajar con nosotros -->
         <!-- Formulario de Reservacion -->
-        <!-- Informacion de contacto -->
+         <h1 id="reservacion">Reservación</h1>
+         <form action="#" method="post">
+            <fieldset>
+            <legend >Solicitud de Reservación</legend>
+            <table border="1px"  border-colapse="separete">
+                
+                <tr padding="1px">
+                    <td colspan="4" align="center">Datos del Cliente</td>
+                </tr>
+                <tr>
+                    <td padding="1px">Nombre:</td>
+                    <td><input type="text" name="nombre" required></td>
+                    <td>Correo Electrónico:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Fecha de viaje</td>
+                    <td><input type="date" name="fecha_viaje"></td>
+                    <td>Hora de salida</td>
+                    <td><input type="time" name="hora_salida"></td>
+                </tr>
+                <tr>
+                    <td>Numero de viajeros</td>
+                    <td><input type="number" name="num_viajeros"></td>
+                    <td>Presupuesto</td>
+                    <td><input type="range" name="presupuesto"></td>
+                </tr>
+                <tr>
+                    <td>Colo de pulsera</td>
+                    <td><input type="color" name="color_pulsera"></td>
+                    <td>Identificacion</td>
+                    <td><input type="file" name="identificacion"></td>
+                </tr>
+            </table>
+         </fieldset>
+         </form>
+     
 
         
     </html>
